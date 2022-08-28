@@ -1,0 +1,5 @@
+name: "setup-consul-template CodeQL config"
+
+paths-ignore: 
+  - node_modules
+  - dist

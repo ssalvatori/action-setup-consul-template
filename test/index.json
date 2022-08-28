@@ -1,0 +1,657 @@
+{
+  "name": "consul-template",
+  "versions": {
+    "0.28.0": {
+      "builds": [
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.0_darwin_amd64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_darwin_amd64.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.28.0_freebsd_386.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_freebsd_386.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.0_freebsd_amd64.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_freebsd_amd64.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.28.0_linux_386.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_linux_386.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.0_linux_amd64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_linux_amd64.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.28.0_linux_arm.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_linux_arm.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.28.0_linux_arm64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_linux_arm64.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.0_solaris_amd64.zip",
+          "name": "consul-template",
+          "os": "solaris",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_solaris_amd64.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.28.0_windows_386.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_windows_386.zip",
+          "version": "0.28.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.0_windows_amd64.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.0/consul-template_0.28.0_windows_amd64.zip",
+          "version": "0.28.0"
+        }
+      ],
+      "name": "consul-template",
+      "shasums": "consul-template_0.28.0_SHA256SUMS",
+      "shasums_signature": "consul-template_0.28.0_SHA256SUMS.sig",
+      "shasums_signatures": [
+        "consul-template_0.28.0_SHA256SUMS.72D7468F.sig",
+        "consul-template_0.28.0_SHA256SUMS.sig"
+      ],
+      "version": "0.28.0"
+    },
+    "0.28.1": {
+      "builds": [
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.1_darwin_amd64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_darwin_amd64.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.28.1_freebsd_386.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_freebsd_386.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.1_freebsd_amd64.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_freebsd_amd64.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.28.1_linux_386.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_linux_386.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.1_linux_amd64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_linux_amd64.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.28.1_linux_arm.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_linux_arm.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.28.1_linux_arm64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_linux_arm64.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.1_solaris_amd64.zip",
+          "name": "consul-template",
+          "os": "solaris",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_solaris_amd64.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.28.1_windows_386.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_windows_386.zip",
+          "version": "0.28.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.28.1_windows_amd64.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.28.1/consul-template_0.28.1_windows_amd64.zip",
+          "version": "0.28.1"
+        }
+      ],
+      "name": "consul-template",
+      "shasums": "consul-template_0.28.1_SHA256SUMS",
+      "shasums_signature": "consul-template_0.28.1_SHA256SUMS.sig",
+      "shasums_signatures": [
+        "consul-template_0.28.1_SHA256SUMS.72D7468F.sig",
+        "consul-template_0.28.1_SHA256SUMS.sig"
+      ],
+      "version": "0.28.1"
+    },
+    "0.29.0": {
+      "builds": [
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.0_darwin_amd64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_darwin_amd64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.29.0_darwin_arm64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_darwin_arm64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.0_freebsd_386.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_freebsd_386.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.0_freebsd_amd64.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_freebsd_amd64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.0_freebsd_arm.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_freebsd_arm.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.0_linux_386.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_linux_386.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.0_linux_amd64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_linux_amd64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.0_linux_arm.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_linux_arm.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.29.0_linux_arm64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_linux_arm64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.0_netbsd_386.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_netbsd_386.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.0_netbsd_amd64.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_netbsd_amd64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.0_netbsd_arm.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_netbsd_arm.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.0_openbsd_386.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_openbsd_386.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.0_openbsd_amd64.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_openbsd_amd64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.0_openbsd_arm.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_openbsd_arm.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.0_solaris_amd64.zip",
+          "name": "consul-template",
+          "os": "solaris",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_solaris_amd64.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.0_windows_386.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_windows_386.zip",
+          "version": "0.29.0"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.0_windows_amd64.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.0/consul-template_0.29.0_windows_amd64.zip",
+          "version": "0.29.0"
+        }
+      ],
+      "name": "consul-template",
+      "shasums": "consul-template_0.29.0_SHA256SUMS",
+      "shasums_signature": "consul-template_0.29.0_SHA256SUMS.sig",
+      "shasums_signatures": [
+        "consul-template_0.29.0_SHA256SUMS.72D7468F.sig",
+        "consul-template_0.29.0_SHA256SUMS.sig"
+      ],
+      "version": "0.29.0"
+    },
+    "0.29.1": {
+      "builds": [
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.1_darwin_amd64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_darwin_amd64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.29.1_darwin_arm64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_darwin_arm64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.1_freebsd_386.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_freebsd_386.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.1_freebsd_amd64.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_freebsd_amd64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.1_freebsd_arm.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_freebsd_arm.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.1_linux_386.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_linux_386.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.1_linux_amd64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_linux_amd64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.1_linux_arm.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_linux_arm.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.29.1_linux_arm64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_linux_arm64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.1_netbsd_386.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_netbsd_386.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.1_netbsd_amd64.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_netbsd_amd64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.1_netbsd_arm.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_netbsd_arm.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.1_openbsd_386.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_openbsd_386.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.1_openbsd_amd64.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_openbsd_amd64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.1_openbsd_arm.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_openbsd_arm.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.1_solaris_amd64.zip",
+          "name": "consul-template",
+          "os": "solaris",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_solaris_amd64.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.1_windows_386.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_windows_386.zip",
+          "version": "0.29.1"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.1_windows_amd64.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.1/consul-template_0.29.1_windows_amd64.zip",
+          "version": "0.29.1"
+        }
+      ],
+      "name": "consul-template",
+      "shasums": "consul-template_0.29.1_SHA256SUMS",
+      "shasums_signature": "consul-template_0.29.1_SHA256SUMS.sig",
+      "shasums_signatures": [
+        "consul-template_0.29.1_SHA256SUMS.72D7468F.sig",
+        "consul-template_0.29.1_SHA256SUMS.sig"
+      ],
+      "version": "0.29.1"
+    },
+    "0.29.2": {
+      "builds": [
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.2_darwin_amd64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_darwin_amd64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.29.2_darwin_arm64.zip",
+          "name": "consul-template",
+          "os": "darwin",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_darwin_arm64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.2_freebsd_386.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_freebsd_386.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.2_freebsd_amd64.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_freebsd_amd64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.2_freebsd_arm.zip",
+          "name": "consul-template",
+          "os": "freebsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_freebsd_arm.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.2_linux_386.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_linux_386.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.2_linux_amd64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_linux_amd64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.2_linux_arm.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_linux_arm.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "arm64",
+          "filename": "consul-template_0.29.2_linux_arm64.zip",
+          "name": "consul-template",
+          "os": "linux",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_linux_arm64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.2_netbsd_386.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_netbsd_386.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.2_netbsd_amd64.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_netbsd_amd64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.2_netbsd_arm.zip",
+          "name": "consul-template",
+          "os": "netbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_netbsd_arm.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.2_openbsd_386.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_openbsd_386.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.2_openbsd_amd64.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_openbsd_amd64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "arm",
+          "filename": "consul-template_0.29.2_openbsd_arm.zip",
+          "name": "consul-template",
+          "os": "openbsd",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_openbsd_arm.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.2_solaris_amd64.zip",
+          "name": "consul-template",
+          "os": "solaris",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_solaris_amd64.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "386",
+          "filename": "consul-template_0.29.2_windows_386.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_windows_386.zip",
+          "version": "0.29.2"
+        },
+        {
+          "arch": "amd64",
+          "filename": "consul-template_0.29.2_windows_amd64.zip",
+          "name": "consul-template",
+          "os": "windows",
+          "url": "https://releases.hashicorp.com/consul-template/0.29.2/consul-template_0.29.2_windows_amd64.zip",
+          "version": "0.29.2"
+        }
+      ],
+      "name": "consul-template",
+      "shasums": "consul-template_0.29.2_SHA256SUMS",
+      "shasums_signature": "consul-template_0.29.2_SHA256SUMS.sig",
+      "shasums_signatures": [
+        "consul-template_0.29.2_SHA256SUMS.72D7468F.sig",
+        "consul-template_0.29.2_SHA256SUMS.sig"
+      ],
+      "version": "0.29.2"
+    }
+  }
+}

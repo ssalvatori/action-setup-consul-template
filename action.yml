@@ -1,0 +1,11 @@
+name: 'setup-consul-template'
+description: 'setup consul-template cli in your github runner'
+author: 'Stefano Salvatori'
+inputs:
+  version:
+    description: 'Consul Template version'
+    required: false
+    default: '0.29.2'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
