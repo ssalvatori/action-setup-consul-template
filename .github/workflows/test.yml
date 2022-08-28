@@ -23,3 +23,6 @@ jobs:
     - uses: ./
       with:
         version: 0.29.1
+
+    - name: Validate consul-template version
+      run: consul-template -v | grep "0.29.1"
